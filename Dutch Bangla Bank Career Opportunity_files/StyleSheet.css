@@ -1,0 +1,443 @@
+
+/*-----------Author DBBL-----------*/
+
+html, body{min-height:100%}
+body{
+	font-family:Tahoma, Geneva, sans-serif;
+	padding:0;
+	margin:0;
+	background:#585ca5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#585ca5), to(#fff));
+	background: -moz-linear-gradient(top, #585ca5 50%, #fff 100%);
+	background: -o-linear-gradient(top, #585ca5 50%, #fff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#585ca5', endColorstr='#fff',GradientType=0 );
+	line-height:18px;
+	font-size:13px;
+}
+
+/*------common-----*/
+a{text-decoration:none; color:#2c318d}
+img{border:0}
+
+/*------common-----*/
+
+.main_container{
+	margin: 0 auto;
+	padding:0px 0;
+	max-width:1024px;
+	min-width:320px;background:#fff;
+	-webkit-box-shadow: 0px 0px 3px 1px #262424;
+	box-shadow: 0px 0px 3px 1px #262424;
+	text-align:left
+	
+}
+.page_header{
+	padding:20px;
+	min-height:58px;
+	background:#fff url(../Images/hdr-bg.png) no-repeat right top;
+	margin:0;
+	border-bottom:1px solid #ccc;
+	position:relative;
+	text-align:left
+}
+.page_footer{
+	padding:15px 10px;
+	background:#2c318d;
+	color:#fff;
+	text-align:center;
+	line-height:22px;
+}
+
+.mainwrap{background:#eaf6fc; padding:10px 20px 20px; text-align:left}
+#dutchLogo{padding-top:10px; display:block}
+.careerTitle{
+	float:right;
+	line-height:43px;
+	font-size:22px;
+	font-weight:100;
+	padding:0;
+	margin:0;
+	font-style:italic;
+	position:absolute;
+	right:20px; top:25px;
+}
+
+.banerimage{width:102%; max-height:220px; display:block; margin:0 -1% 20px;}
+
+.divFreshJob{
+	line-height:24px;
+	font-size:22px;
+}
+
+/*------Table------*/
+.customDesignTbl,
+.educationTbl{
+	width:99.6%;
+	border:0;
+	margin:0 0 20px;
+	border:1px solid #ccc;
+}
+
+.educationTbl{
+	margin-top:8px;
+}
+
+.customDesignTbl tr th,
+.customDesignTbl tr td{
+	text-align:left;
+	line-height:20px;
+	padding:2px 3px;
+	color:#fff
+}
+
+.customDesignTbl tr th{background:#2c318d; padding-bottom:4px }
+.customDesignTbl tr td{background:#6e72b1}
+.customDesignTbl tr:nth-child(even) td{background:#d8d9ea; color:#333}
+.helplinepanel{
+	text-align:center;
+}
+.leftcolumn{font-weight:bold}
+
+h2:after{
+    background-image: linear-gradient(to left, transparent, #2c318d);
+    border: 0 none;
+    content: " ";
+    display: block;
+    height: 1px;
+    margin: 10px 0 0;
+}
+
+/*--------Job details--------*/
+.detailsWrap{min-height:450px}
+.detailsWrap .customDesignTbl {width:auto}
+.detailsWrap .customDesignTbl tr td{vertical-align:top}
+.wrapparent{
+	width:100%;
+	padding:10px 0;
+	overflow:hidden;
+}
+.btnParent{padding-top:0}
+.jodposition{
+	width:20%;
+	float:left;
+	font-weight:bold;
+}
+#lblPositionName{color:#2c318d; font-weight:bold; font-size:14px}
+
+.buttons {
+  	float:right;
+  	border:0;
+  	cursor:pointer;
+  	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #2c318d;
+    border-color: #e3edf4 #e3edf4 #3a9a95;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 0 0 2px;
+    color: #f4f4f4;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 0px;
+    padding: 6px 15px;
+}
+
+.buttons:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #2c318d);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #2c318d);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #2c318d);
+  background-image: -o-linear-gradient(top, #3cb0fd, #2c318d);
+  background-image: linear-gradient(to bottom, #3cb0fd, #2c318d);
+  text-decoration: none;
+}
+
+/*------Online Form page-----*/
+#divPersonalInfoDetail{padding-bottom:15px}
+h3.infotitle{
+	background:#585ca5;
+	line-height:20px;
+	color:#fff;
+	margin:0;
+	margin:0 -20px 15px;
+	padding:4px 20px;
+}
+
+.infoFormTbl,
+.educationTbl{width:99.6%; overflow:hidden}
+
+.infoFormTbl tr td{vertical-align:top; padding-bottom:7px}
+.labelwrap{width:19.5%; font-weight:200}
+
+input[type=text],
+select,
+textarea{
+	border:1px solid #ccc;
+	line-height:16px;
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+	height:16px;
+	padding:1px 3px;
+	margin:0;
+	/*-webkit-box-shadow:inset 3px 2px 2px 1px #ccc;
+	box-shadow:inset 3px 2px 2px 1px #ccc;*/
+}
+input.txt1{width:320px; margin-left:5px}
+input.txt2{width:399px;}
+input.txt3,
+textarea.txt3,
+select.txt3{width:295px;}
+select.txt3{width:303px;}
+
+select{ background:#fff url(../Images/select.png) no-repeat right 1px; height:20px; margin:0}
+textarea{height:90px; overflow:hidden; resize:none}
+
+.applicantGenderlist{width:70px}
+hr{display:block; margin-bottom:15px; text-align:left}
+
+/*.educationTbl h4,
+#ctl00_cphBody_divFieldOfExp #tblFieldOfExp h4{
+	margin:0 0 2px; padding:2px; min-height:36px;
+	text-align:center;
+	background:#585ca5;
+	vertical-align:middle;
+	color:#fff;
+	font-size:12px;
+	display:none;
+}
+*/
+
+.educationTbl h4,
+#ctl00_cphBody_divFieldOfExp #tblFieldOfExp h4{
+	margin:0 0 2px; padding:2px; min-height:36px;
+	text-align:center;
+	vertical-align:middle;
+	font-size:12px;
+	display:none;
+	border:1px solid #eee;
+	background:#ccc;
+}
+
+.educationTbl #rowEdu1 h4,
+.educationTbl #rowExp1 h4,
+#ctl00_cphBody_divFieldOfExp #tblFieldOfExp #rowFiled1 h4{display:block}
+
+#ctl00_cphBody_divFieldOfExp #tblFieldOfExp #rowFiled1 h4{min-height:22px}
+
+#rowEdu1 h4{margin-bottom:2px}
+
+#rs{float:right; margin:-10px 5px 0 0}
+
+.educationTbl > div{overflow:hidden; width:100%; background:#eee}
+.educationTbl > div > div{float:left}
+.educationTbl > div > div > div{padding:1px; background:#fff}
+#divExperienceDetail > div > div > div{padding:1px; background:none}
+
+
+.tditem1,
+.tditem2,
+.tditem3{width:11%}
+.tditem4{width:15%}
+.tditem5{width:30%}
+
+.expitem1{width:15%}
+.expitem2{width:11%}
+.expitem4{width:23%}
+.natofJob{width:8%}
+.certImage{width:14%}
+
+.dutiesTxt{width:96.7%; height:32px}
+
+.itemparent select{width:100%}
+.educationTbl > div > div > div > div select.leftalign{width:49%; float:left}
+.educationTbl > div > div > div > div select.rgtalign{width:49%; float:right}
+.educationTbl input{width:93.3%}
+
+input.gpastart , input.gpaend{width:14%; margin-left:1%}
+
+.jobOrder{color:Red; font-weight:bold; font-style:italic;}
+.jobNo{color:Maroon; font-weight:bold; font-style:italic;}
+
+#divExperienceDetail{margin-top:15px}
+
+#divExperienceDetail input,
+#divExperienceDetail select{margin-top:8px}
+
+.wrapperUpload{width:100%; overflow:hidden; padding-bottom:15px}
+
+.divUploadPhotoDetail{width:47.5%; padding-right:2%; float:left;}
+.divUploadCertDetail{width:47.5%; padding-right:2%; float:right;}
+h4.uploadTitle{
+	padding:0 0 10px;
+	margin:0;
+	line-height:20px;
+}
+input[type=file]{border:1px solid #ccc; width:80%; margin-bottom:10px}
+
+
+
+
+
+
+
+/*-------feild of exp----*/
+#ctl00_cphBody_divFieldOfExp{border:1px solid #ccc; margin-bottom:15px; background:#eee}
+
+#ctl00_cphBody_divFieldOfExp tr,
+#ctl00_cphBody_divFieldOfExp #tblFieldOfExp{width:100%; vertical-align:top}
+
+
+
+
+select.scltMonthYr{width:38%}
+select.expFeild{width:100%}
+input.exporganization{width:97%}
+
+/*-------View cv------*/
+.informationViewTbl tr td{
+	vertical-align:top;
+}
+#education{padding-bottom:15px}
+.informationViewTbl .td_left{width:21%;}
+.informationViewTbl .td_center{width:5px}
+
+.educationInfoViewTbl{text-align:center; border:1px solid #ccc; width:99.6%}
+
+.educationInfoViewTbl tr th,
+.educationInfoViewTbl tr td{border:1px solid #ccc;}
+
+.educationInfoViewTbl tr th{font-size:12px}
+
+.showcloumn1{width:12%}
+.showcloumn3{width:14%}
+.showcloumn2{width:25%}
+
+#experience,
+#fieldOfExperience{padding-bottom:15px}
+
+.uploadimages{border:1px solid #ccc}
+.photoViewerWrap{text-align:center}
+
+#tblExperience .showcloumn1{width:15%}
+#tblExperience .showcloumn2{width:12%}
+#tblExperience .showcloumn3{width:21%}
+
+.reminadTxtwrap{
+	position:absolute;
+	left:30%;
+	top:208px;
+	width:298px;
+	background:#fff;
+	padding:10px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border:1px solid #ccc;
+}
+.remindHdr{display:block; margin:-18px 0;}
+
+/*-------result help-------*/
+.resltTbl{width:99.5%}
+.resltTbl h1{text-align:center; font-size:15px; background:#585ca5; margin:0; padding:15px 2px; color:#fff}
+.divClass{width:15%}
+.resultparent{padding:20px 0; display:none; position:relative}
+
+
+
+@media screen and (max-width: 800px) {	
+	input.gpastart , input.gpaend{width:10%; margin-left:1%}
+}
+
+@media screen and (max-width: 767px) {
+    .main_container {
+        width:88%; margin:0 auto;
+    }
+	.educationTbl > div > div{width:100%}
+	.educationTbl h4{min-height:auto; display:block; margin:2px 0}
+	#ctl00_cphBody_divFieldOfExp #tblFieldOfExp h4{display:block; font-size:11px; line-height:13px; min-height:28px; vertical-align:middle}
+	
+	.educationTbl input{width:98.5%}
+	
+	.educationTbl input.gpastart, .educationTbl input.gpaend{width:17.5%}
+	.divUploadPhotoDetail{width:100%; padding-bottom:15px; border-bottom:1px solid #ccc; margin-bottom:10px}
+	input[type=file]{width:99%;}
+	.labelwrap{width:30%}
+	
+	input.txt1{width:216px}
+	input.txt2{width:295px}
+	
+}
+
+
+@media screen and (max-width: 640px) {
+    select.scltMonthYr{width:35%}
+	#rs{float:right; margin:5px 5px 0 0}
+	.educationInfoViewTbl tr th,
+	.educationInfoViewTbl tr td{font-size:10px}
+	
+}
+
+@media screen and (max-width: 600px) {
+	.educationInfoViewTbl tr th,
+	.educationInfoViewTbl tr td{font-size:9px}
+	.hidecloumn{display:none}
+}
+
+@media screen and (max-width: 500px) {
+    .main_container {
+        width:92%; margin:0 auto;
+    }
+	.educationTbl input{width:98.5%}
+	
+	.educationTbl input.gpastart, .educationTbl input.gpaend{width:12.5%}
+	.datepic{display:block}
+	
+	.wrapadjust{min-width:88%; margin:0 auto; padding-left:1%; padding-right:1%}
+	
+}
+
+@media screen and (max-width: 480px) {
+    input.txt1{width:150px}
+	input.txt2{width:229px}
+	input.txt3, textarea.txt3, select.txt3{width:229px}
+	select.txt3{width:236px}
+	.careerTitle{font-size:17px}
+	.flotnone{overflow:visible; font-size:15px}
+	.jodposition{
+		width:100%; float:none;
+		background:#585ca5;
+		margin:0 -20px 15px;
+		padding:5px 20px 5px;
+		color:#fff;
+}
+
+	select.scltMonthYr{width:30%}
+	
+	.reminadTxtwrap{left:0%}
+	.educationInfoViewTbl tr th,
+	.educationInfoViewTbl tr td{font-size:9px}	
+	
+	
+
+}
+
+
+@media screen and (max-width: 360px) {
+    input.txt1{width:120px}
+	input.txt2{width:199px}
+	input.txt3, textarea.txt3, select.txt3{width:199px}
+	select.txt3{width:206px}
+	.careerTitle{top:60px}
+	.resltTbl h1{font-size:15px}
+	.resltTbl{font-size:11px}
+	select.scltMonthYr{width:20%}
+	.educationInfoViewTbl tr th,
+	.educationInfoViewTbl tr td{font-size:8px}
+	
+	
+	
+}
